@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Sportiv</title>
+</head>
+<body class="bg-181818">
+    <main>
+        <div class="lg:w-[80.6%] w-[95%] h-auto m-auto">
+            <header class="bg-181818">
+                <div class="py-4 flex justify-between items-center md:flex-col ">
+                    <!-- Логотип -->
+                    <img src="./assets/img/logoH.svg" alt="logo">
+                    
+                    <!-- Бургер-кнопка с анимацией "лесенкой" -->
+                    <button id="menu-toggle" class="md:hidden focus:outline-none w-10 h-10 flex flex-col justify-between items-end py-2.5">
+                        <span class="burger-line w-[19px]"></span>
+                        <span class="burger-line w-[28px]"></span>
+                        <span class="burger-line w-[37px]"></span>
+                    </button>
+                    
+                    <!-- Навигационное меню для десктопа -->
+                    <nav class="hidden md:block mt-3">
+                        <ul class="flex space-x-8">
+                            <li><a href="#" class="text-white hover:text-0967AD text-[16px] font-Mont">Главная</a></li>
+                            <li><a href="#" class="text-white hover:text-0967AD text-[16px] font-Mont">Продукт</a></li>
+                            <li><a href="#" class="text-white hover:text-0967AD text-[16px] font-Mont">Обратная связь</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!-- Мобильное меню -->
+                <div id="mobile-menu" class="mobile-menu md:hidden bg-181818 ">
+                    <div class="mx-auto py-2">
+                        <ul class="flex flex-col space-y-2">
+                            <li><a href="#" class="block py-3 text-white hover:text-0967AD text-[16px] font-Mont">Главная</a></li>
+                            <li><a href="#" class="block py-3 text-white hover:text-0967AD text-[16px] font-Mont">Продукт</a></li>
+                            <li><a href="#" class="block py-3 text-white hover:text-0967AD text-[16px] font-Mont">Обратная связь</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+
+            <div class="w-full h-auto">
+                <div class="md:text-[80px] text-[36px] font-Mont font-bold text-0967AD flex justify-center text-center tracking-tight mt-[50px]">
+                    КОНСТРУКТОР<br>
+                    ПЛАТФОРМЫ
+                </div>
+                <div class="font-Mont text-white flex justify-center md:text-[20px] text-[14px]">Для спортивных мероприятий</div>
+
+                <div class="md:w-[420px] w-[267px] h-auto flex justify-between items-center m-auto mt-[90px]">
+                    <button class="md:w-[178px] w-[113px] md:h-[65px] h-[41px] flex justify-center items-center md:text-[14px] text-[10px] text-white font-Mont bg-4452FE">
+                        Попробовать<br>
+                        беслатно
+                    </button>
+                    <button class="md:w-[178px] w-[113px] md:h-[65px] h-[41px] flex justify-center items-center md:text-[14px] text-[10px] text-white font-Mont border border-white">Купить</button>
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="w-full h-auto flex flex-col justify-center">
+
+             <div class="spring-animate opacity-0 will-change-transform xl:w-[1210px] xl:h-[914px] w-full h-auto m-auto mt-[30px]">
+                <img class="w-full h-auto" src="./assets/img/banner.svg" alt="banner">
+            </div>
+
+            <div class="gran absolute w-full h-[477px] -mb-[464px] lg:flex hidden"></div>
+            <div class="gran absolute w-full h-[400px] -mb-[39.3%] hidden lg:hidden md:flex"></div>
+            <div class="gran absolute w-full h-[300px] -mb-[39.5%] hidden lg:hidden md:hidden sm:flex"></div>
+            <div class="gran absolute w-full h-[228px] -mb-[41%] flex sm:hidden"></div>
+        </div>
+       
+
+        <div class="lg:w-[80.6%] w-[95%] h-auto m-auto">
+            <div>
+                <div class="scroll-animate-right opacity-0 will-change-transform-opacity lg:text-[52px] text-[24px] font-semibold font-Mont text-407BFF flex justify-center mt-[62px]">Основной функционал</div>
+                <div class="scroll-animate-right opacity-0 will-change-transform-opacity text-[20px] font-regular font-Mont text-white lg:flex hidden justify-center ">Инструменты для вашего комфорта</div>
+                <div class="flex justify-between xl:w-[1100px] w-full h-auto m-auto">
+                    <div class="scroll-animate-left opacity-0 will-change-transform-opacity w-[928px] h-[560px] hidden xl:flex">
+                        <img class="w-full h-auto" src="./assets/img/shineblock.svg" alt="shine">
+                    </div>
+                    <div class="mt-[60px] xl:w-[295px] w-full h-auto">
+                        <div class="scroll-animate-right opacity-0 will-change-transform-opacity">
+                            <div class="flex gap-2 items-center">
+                                <img src="./assets/img/biker.svg" alt="biker">
+                                <div class="text-[16px] font-semibold font-Mont text-white">Личные результаты</div>
+                            </div>
+                            <div class="w-full h-[1px] bg-white mt-[10px]"></div>
+                            <div class="text-[14px] font-regular font-Mont text-white mt-[10px]">
+                                Здесь вы можете отслеживать свои достижения и прогресс. Доступны история участия, статистика активности, награды и сертификаты — всё в одном месте для вашего удобства.
+                            </div>
+                        </div>
+
+                        <div class="scroll-animate-right opacity-0 will-change-transform-opacity mt-[20px]">
+                            <div class="flex gap-2 items-center">
+                                <img src="./assets/img/swimmer.svg" alt="swimmer">
+                                <div class="text-[16px] font-semibold font-Mont text-white">Управление активностью</div>
+                            </div>
+                            <div class="w-full h-[1px] bg-white mt-[10px]"></div>
+                            <div class="text-[14px] font-regular font-Mont text-white mt-[10px]">
+                                Контролируйте свою вовлечённость в проекты: настраивайте уведомления, редактируйте профиль, отмечайте предпочтения и планируйте участие в будущих событиях.                             </div>
+                        </div>
+
+                        <div class="scroll-animate-right opacity-0 will-change-transform-opacity mt-[20px]">
+                            <div class="flex gap-2 items-center">
+                                <img src="./assets/img/biker.svg" alt="biker">
+                                <div class="text-[16px] font-semibold font-Mont text-white">Взаимодействие с
+                                    организаторами</div>
+                            </div>
+                            <div class="w-full h-[1px] bg-white mt-[10px]"></div>
+                            <div class="text-[14px] font-regular font-Mont text-white mt-[10px]">
+                                Связывайтесь с организаторами мероприятий напрямую: задавайте вопросы, получайте поддержку и уточняйте детали участия через удобный чат или электронную почту.                             </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-animate-right opacity-0 will-change-transform-opacity">
+                <div class="lg:text-[52px] text-[24px] font-semibold font-Mont text-407BFF flex justify-center text-center mt-[62px]">Управление спортивным бизнесом</div>
+                <div class="text-[20px] font-regular font-Mont text-white lg:flex justify-center text-center hidden">Стратегии монетизации и продвижения<br>
+                    спортивной платформы</div>
+                    <div class="2xl:w-[1270px] w-full lg:flex hidden h-auto m-auto mt-[35px]">
+                        <img class="w-full h-auto m-auto" src="./assets/img/bannerB.svg" alt="banner">
+                    </div>
+                    <div class="slider-container lg:hidden mt-[20px]">
+                        <div class="slider-track">
+                            <!-- Слайд 1 -->
+                            <div class="slider-slide">
+                                <img src="./assets/img/slide1.svg" alt="Природа 1">
+                                
+                            </div>
+                            
+                            <!-- Слайд 2 -->
+                            <div class="slider-slide">
+                                <img src="./assets/img/slide2.svg" alt="Природа 2">
+                                
+                            </div>
+                            
+                            <!-- Слайд 3 -->
+                            <div class="slider-slide">
+                                <img src="./assets/img/slide3.svg" alt="Природа 3">
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="scroll-animate-right opacity-0 will-change-transform-opacity xl:w-[1087px] w-full h-auto m-auto">
+                <div class="lg:text-[52px] text-[24px] font-semibold font-Mont text-407BFF flex justify-center text-center mt-[62px]">Галерея</div>
+                <div class="text-[20px] font-regular font-Mont text-white hidden justify-center text-center lg:flex">Спорт это не просто борьба - это эмоции</div>
+                <div class="flex justify-between m-auto mt-[20px] w-full h-auto flex-wrap ">
+                    <img class="mt-[20px] w-[150px] h-[137px] sm:w-[200px] sm:h-[182px]" src="./assets/img/1.svg" alt="1">
+                    <img class="mt-[20px] w-[150px] h-[137px] sm:w-[200px] sm:h-[182px]" src="./assets/img/2.svg" alt="2">
+                    <img class="mt-[20px] w-[150px] h-[137px] sm:w-[200px] sm:h-[182px]" src="./assets/img/3.svg" alt="3">
+                    <img class="mt-[20px] w-[150px] h-[137px] sm:w-[200px] sm:h-[182px]" src="./assets/img/4.svg" alt="4">
+                </div>
+                <img class="mt-[40px] hidden 2xl:flex" src="./assets/img/bannerG.svg" alt="banner">
+                <button class="lg:w-[178px] lg:h-[65px] w-[135px] h-[43px] flex justify-center items-center text-[14px] text-white font-Mont border border-white m-auto mt-[35px]">Смотреть еще</button>
+            </div>
+
+            <div class="scroll-animate-right opacity-0 will-change-transform-opacity lg:w-[649px] w-full h-auto m-auto">
+                <div class="lg:text-[52px] text-[24px] font-semibold font-Mont text-407BFF flex justify-center text-center mt-[62px]">Партнеры</div>
+                <div class="text-[20px] font-regular font-Mont text-white hidden justify-center text-center lg:flex ">Те без которых было нельзя</div>
+                <div class="flex justify-between mt-[40px] lg:flex-nowrap flex-wrap w-full">
+                    <img src="./assets/img/VeloRussia.svg" alt="logo">
+                    <img src="./assets/img/video_arena.svg" alt="logo">
+                    <img src="./assets/img/cityrnng.svg" alt="logo">
+                    <img src="./assets/img/golden.svg" alt="logo">
+                </div>
+                
+                <button class="lg:w-[178px] lg:h-[65px] w-[135px] h-[43px] flex justify-center items-center text-[14px] text-white font-Mont border border-white m-auto mt-[35px]">Смотреть еще</button>
+            </div>
+            
+            <div class="scroll-animate-right opacity-0 will-change-transform-opacity w-full h-auto m-auto">
+                <div class="lg:text-[52px] text-[24px] font-semibold font-Mont text-407BFF flex justify-center text-center mt-[62px]">О нас говорят</div>
+                
+               <div class="xl:w-[883px] w-full h-auto flex justify-between flex-wrap m-auto">
+                    <div class="sm:w-[430px] sm:h-[226px] w-[324px] h-[159px] rounded-[10px] border border-white m-auto mt-[20px]">
+                        <div class="font-semibold text-[10px] text-white font-Mont sm:mt-[40px] mt-[20px] sm:ml-[40px] ml-[10px]">"Идеальный инструмент для отслеживания прогресса!"</div>
+                        <div class="sm:w-[345px] w-[300px] h-auto sm:text-[10px] text-[8px] text-white font-Mont sm:ml-[40px] sm:mt-[30px] ml-[10px] mt-[25px]">
+                            СПОРТИВ — это именно то, что нужно каждому спортсмену!  Сайт помогает фиксировать результаты тренировок, анализировать прогресс и делиться достижениями с единомышленниками. Особенно радует возможность участвовать в велогонках от создателей платформы — это мотивирует и добавляет азарта! Отдельный плюс за удобный интерфейс и отсутствие лишней информации.
+                        </div>
+                    </div>
+                    <div class="sm:w-[430px] sm:h-[226px] w-[324px] h-[159px] rounded-[10px] border border-white m-auto mt-[20px]">
+                        <div class="font-semibold text-[10px] text-white font-Mont sm:mt-[40px] mt-[20px] sm:ml-[40px] ml-[10px]">"Лучшая платформа для спортивного сообщества!"</div>
+                        <div class="sm:w-[345px] w-[300px] h-auto sm:text-[10px] text-[8px] text-white font-Mont sm:ml-[40px] sm:mt-[30px] ml-[10px] mt-[25px]">
+                            Огромное спасибо создателям СПОРТИВа за такой продуманный сайт! Здесь нет ненужных программ тренировок, зато есть четкая система учета результатов и крутое сообщество. Очень вдохновляет следить за своими улучшениями и поддерживать других атлетов. А ежегодные велогонки — это просто бомба! Так держать!
+                        </div>
+                    </div>
+                    <div class="sm:w-[430px] sm:h-[226px] w-[324px] h-[159px] rounded-[10px] border border-white m-auto mt-[20px]">
+                        <div class="font-semibold text-[10px] text-white font-Mont sm:mt-[40px] mt-[20px] sm:ml-[40px] ml-[10px]">"Мотивация и прогресс в одном месте!"</div>
+                        <div class="sm:w-[345px] w-[300px] h-auto sm:text-[10px] text-[8px] text-white font-Mont sm:ml-[40px] sm:mt-[30px] ml-[10px] mt-[25px]">
+                            Я давно искал платформу, где можно удобно отслеживать свои спортивные результаты и общаться с такими же увлеченными людьми. СПОРТИВ превзошел все ожидания! Здесь всё просто и понятно: добавляешь свои данные, видишь динамику, обмениваешься опытом. А еще организаторы устраивают потрясающие велосоревнования — это отдельный кайф! Однозначно 5 звезд!
+                        </div>
+                    </div>
+                    <div class="sm:w-[430px] sm:h-[226px] w-[324px] h-[159px] rounded-[10px] border border-white m-auto mt-[20px]">
+                        <div class="font-semibold text-[10px] text-white font-Mont sm:mt-[40px] mt-[20px] sm:ml-[40px] ml-[10px]">"СПОРТИВ — мой надежный спортивный дневник!"</div>
+                        <div class="sm:w-[345px] w-[300px] h-auto sm:text-[10px] text-[8px] text-white font-Mont sm:ml-[40px] sm:mt-[30px] ml-[10px] mt-[25px]">
+                            Как бегун и велосипедист я оценил СПОРТИВ по достоинству! Сайт помогает систематизировать тренировки, видеть прогресс и находить поддержку среди других атлетов. Мне нравится, что здесь нет навязчивых программ — только чистый анализ и общение. А фирменные велогонки от создателей стали для меня главным событием сезона! Спасибо за такой крутой проект!                        </div>
+                    </div>
+               </div>
+            </div>
+            
+        </div>
+
+        <footer class="w-full h-auto mt-[100px] pb-[50px]">
+            <div class="w-[80.6%] h-auto flex justify-between flex-wrap m-auto">
+                <div>
+                    <img class="mt-[20px]" src="./assets/img/logoF.svg" alt="logo">
+                    <div class="font-Mont font-medium text-white text-[12px] mt-[20px]">
+                        ООО «Спортив.Маркет»<br>
+                        ИНН 0278976469<br>
+                        ОГРН 1230200006068<br>
+                    </div>
+                    <div class="font-Mont font-medium text-white text-[12px] mt-[20px]">© 2023 Спортив.Маркет</div>
+                </div>
+                <div class="md:w-[60%] w-full h-auto flex justify-between flex-wrap">
+                    <div class="flex flex-col mt-[20px]">
+                        <div class="font-Mont font-semibold text-white text-[18px]">НАВИГАЦИЯ</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">Главная</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Продукт</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Обратная связь</a>
+                    </div>
+                    <div class="sm:flex flex-col mt-[20px] hidden">
+                        <div class="font-Mont font-semibold text-white text-[18px]">О ПРОГРАММЕ</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">О программе</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Функции</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Подписка</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Политика конфиденциальности</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Условия и положения</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Наши карты</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Маршруты</a>
+                    </div>
+                    <div class="flex sm:hidden flex-col mt-[20px]">
+                        <div class="font-Mont font-semibold text-white text-[18px]">КОНТАКТЫ</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">+7 927 305-64-00</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">info@sporteve.ru</a>
+                        <div class="flex gap-1 mt-[10px]">
+                            <a href="#"><img src="./assets/img/VK.svg" alt="vk"></a>
+                            <a href="#"><img src="./assets/img/YT.svg" alt="yt"></a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col mt-[20px]">
+                        <div class="font-Mont font-semibold text-white text-[18px]">Справка</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">Служба поддержки</a>
+                        
+                    </div>
+                    <div class="sm:flex hidden flex-col mt-[20px]">
+                        <div class="font-Mont font-semibold text-white text-[18px]">КОНТАКТЫ</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">+7 927 305-64-00</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">info@sporteve.ru</a>
+                        <div class="flex gap-1 mt-[10px]">
+                            <a href="#"><img src="./assets/img/VK.svg" alt="vk"></a>
+                            <a href="#"><img src="./assets/img/YT.svg" alt="yt"></a>
+                        </div>
+                    </div>
+                    <div class="flex sm:hidden flex-col mt-[20px]">
+                        <div class="font-Mont font-semibold text-white text-[18px]">О ПРОГРАММЕ</div>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[20px]" href="#">О программе</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Функции</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Подписка</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Политика конфиденциальности</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Условия и положения</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Наши карты</a>
+                        <a class="font-Mont font-regular text-white text-[14px] mt-[10px]" href="#">Маршруты</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+       <script src="./assets/scripts/burger.js"></script>
+       <script src="./assets/scripts/slider.js"></script>
+       <script src="./assets/scripts/animation-R-L.js"></script>
+       <script src="./assets/scripts/animation-TOP.js"></script>
+    </main>
+</body>
+</html>
